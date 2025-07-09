@@ -1,0 +1,15 @@
+{
+  "scale_factor": 4,
+  "target_size": [
+    256,
+    256
+  ],
+  "low_res_size": [
+    64,
+    64
+  ],
+  "total_pairs": 1254,
+  "train_pairs": 1003,
+  "test_pairs": 251,
+  "split_ratio": "80:20"
+}

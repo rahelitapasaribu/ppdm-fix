@@ -1,0 +1,46 @@
+{
+  "model_name": "ESPCN",
+  "scale_factor": 4,
+  "training_time": 745.5887913703918,
+  "epochs_trained": 69,
+  "best_val_loss": 0.005332446191459894,
+  "evaluation_results": {
+    "ESPCN": {
+      "PSNR": 25.005428174695375,
+      "SSIM": 0.681709916033821,
+      "LPIPS": 0.3525961151719093
+    },
+    "Bicubic": {
+      "PSNR": 20.68834915700834,
+      "SSIM": 0.6584527455335041,
+      "LPIPS": 0.43674137353897097
+    },
+    "Bilinear": {
+      "PSNR": 24.829336756530505,
+      "SSIM": 0.6957346690434997,
+      "LPIPS": 0.4081235340237617
+    }
+  },
+  "dataset_info": {
+    "scale_factor": 4,
+    "target_size": [
+      256,
+      256
+    ],
+    "low_res_size": [
+      64,
+      64
+    ],
+    "total_pairs": 1254,
+    "train_pairs": 1003,
+    "test_pairs": 251,
+    "split_ratio": "80:20"
+  },
+  "hyperparameters": {
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "loss_function": "MSE"
+  },
+  "timestamp": "2025-07-09 23:35:19"
+}
